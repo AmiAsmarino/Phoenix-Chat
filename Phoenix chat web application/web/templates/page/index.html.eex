@@ -1,0 +1,8 @@
+
+<head>
+  <link rel="shortcut icon" href="favicon-32.png" />
+</head>
+<div class="jumbotron">
+  <h2><%= gettext "Welcome to %{name}", name: "Open Chat!" %></h2>
+  <p class="lead">Click to Main Lobby </p>
+</div>

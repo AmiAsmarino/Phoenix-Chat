@@ -1,0 +1,49 @@
+
+<h2>
+<%= if @id == "lobby" do %>
+<i class="em em-last_quarter_moon_with_face"></i>H A T
+
+<% end %>
+
+<html>
+<head>
+  <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
+  <!--<link rel="stylesheet" href="./node_modules/emojionearea/dist/emojionearea.min.css"> -->
+<!--
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.25.0/codemirror.min.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_editor.pkgd.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/froala-editor/2.6.0/css/froala_style.min.css" rel="stylesheet" type="text/css" />
+-->
+
+</head>
+<body>
+
+
+
+</h2>
+<div id="messages" class="form-control" ></div>
+
+<textarea  id="input" class="form-control" rows="4"  placeholder="Enter your message...."></textarea>
+<!--<script type="text/javascript" src="/node_modules/emojionearea/dist/emojionearea.min.js"></script>-->
+<style>
+    #messages{
+      min-height: 380px;
+      background-color: #00FFFF;
+        font-weight: bold;
+    }
+    #input{
+      background-color: #FFE6FF;
+      font-weight: bold;
+    }
+</style>
+
+
+
+</body>
+
+<a href="javascript:location.reload(true)">Refresh this page</a>  to start again
+
+</html>
